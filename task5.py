@@ -15,5 +15,5 @@
 # here you will need to do a power of 1.0/3 or something strange happens.
 import math
 volume = float( input("Input Volume: "))
-radius = (3*(volume/(4*math.pi)))**1/3
+radius = (3*(volume/(4*math.pi)))**(1/3)
 print("The Radius Is:", radius)

@@ -11,3 +11,7 @@ Inputs:
 Sample output:
  Your name is Joe Lunchbox, and your email is joe@koolsandwiches.org.
 """
+x = str( input("Input Your Name: ")).strip()
+y = str( input("Input Your Email: ")).strip()
+
+print(f"{x}:{y}")
